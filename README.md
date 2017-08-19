@@ -11,9 +11,6 @@
 3.下一步计划 
   为每一个TcpConnection 配置一个output buffer/ input buffer   
   Buffer设计  
-  1）一块连续的内存  
-  2）size() 可以自动增长   
-
 源码分析：             
 1）NonCopyable、Copyable 表示对象是否可以复制赋值        
 2）Exception相比标准库的exception，增加了打印栈痕迹的功能             
